@@ -13,7 +13,7 @@ workshop is for you!_
 
 1. Install an IDE, for example:
     * PyCharm (https://www.jetbrains.com/help/pycharm/installation-guide.html)
-    * VS Code (https://code.visualstudio.com/docs/setup/setup-overview)
+    * VS Code (https://code.visualstudio.com/docs/setup/setup-overview) + Python support
 
 2. Clone this repository
 
@@ -21,3 +21,8 @@ workshop is for you!_
 ```shell script
 pip install -r requirements.txt
 ```
+
+## Slides
+
+Please find the accompanying workshop slides here: 
+https://speakerdeck.com/stecklin/debug-like-a-pro
