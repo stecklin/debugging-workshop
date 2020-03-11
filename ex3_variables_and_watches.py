@@ -10,30 +10,32 @@ def exercise3():
     # --- VARIABLES ---
 
     # TODO: Step through the following lines and look at the "Variables" view
-    text = 'This variable is a string!'
+    text = "This variable is a string!"
     number = 123
     random_dict = {
-        'a': 1,
-        'b': 'value for b',
-        'c': 0.5,
-        'd': True
+        "a": 1,
+        "b": "value for b",
+        "c": 0.5,
+        "d": True
     }
     random_list = create_list(length=20, min_value=1, max_value=10)
     ordered_list = list(range(20))
 
-    # TODO: Find the data_frame variable and click "View as DataFrame"
-    data_frame = pd.DataFrame({'random_order': random_list, 'in_order': ordered_list})
+    data_frame = pd.DataFrame({"random_order": random_list, "in_order": ordered_list})
+    # TODO for PyCharm: In the "Variables" view, find data_frame and click "View as DataFrame"
+    print(data_frame.head())
 
     # --- WATCHES ---
 
     # TODO: Add "len(counter)" and "counter.most_common(1)" to "Watches" view and step through the loop
     counter = Counter()
-    for char in "Cookie":
+    for char in "Cookies are amazing!":
         counter.update(char)
 
     # --- VARIABLE HIERARCHY ---
 
-    # TODO: Repeat exercise 1 (step into the functions) and look at the variable hierarchy ("Frames" + "Variables" view)
+    # TODO: Repeat exercise 1 (step into the functions), then select different functions in "Frames" / "Call Stack" and
+    #  look at the "Variables" view
     function_to_step_into_level_1()
 
     # TODO: Try the same for a recursive function (step deeper into it until n == 0 and look at the variable hierarchy)

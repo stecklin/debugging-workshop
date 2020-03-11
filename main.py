@@ -13,10 +13,14 @@ if __name__ == '__main__':
     if args.exercise == 0:
         print("You're done with exercise 0!")
     elif args.exercise == 1:
+        # TODO: Step into this function
         exercise1()
     elif args.exercise == 2:
+        # TODO: Step into this function
         exercise2()
     elif args.exercise == 3:
+        # TODO: Step into this function
         exercise3()
     elif args.exercise == 4:
+        # TODO: Step into this function
         exercise4()

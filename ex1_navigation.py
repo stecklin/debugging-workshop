@@ -51,8 +51,7 @@ def function_to_step_into_and_step_out():
     interesting_var = 2
     for i in range(interesting_var):
         print("Interesting!")
-    text = "Now comes the boring part!"
     # TODO: Step out of this function
-    boring_var = 5
-    for i in range(boring_var):
-        print("Why are you still here? You should have stepped out already!")
+    text = "Now comes the boring part!"
+    boring_var = "Why are you still here? You should have stepped out already!"
+    more_boring_var = text + " " + boring_var
